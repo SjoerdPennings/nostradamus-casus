@@ -1,6 +1,6 @@
 # Casus: 't Klosterke
 
-## Setup
+## Opzet
 
 Deze repository beschrijft het beginpunt voor deze casus, inclusief de specificaties. Er wordt voor het testen gebruik gemaakt van de [Kahlan library](https://kahlan.github.io/docs/), met een net iets andere syntax dan phpunit, maar wanneer je kijkt naar de specs moet dit redelijk voor zich wijzen.
 
@@ -9,7 +9,7 @@ Wat je moet doen is het volgende:
 1. Refactor het bestand `Klosterke.php` in herbruikbare classes.
 2. Voeg een nieuw product categorie toe, "Kloosterbier". De specificaties staan als commentaar in het `KlosterkeSpec.php` bestand.
 
-## Rules
+## Regels
 
 Welkom bij Herberg `t Klosterke. Gevestigd in het oude klooster van Den Hout, zijn we een echt bruin cafe. Achter de tap staat Paul de Hoogh. We kopen en verkopen alleen de beste producten. Helaas wordt de kwaliteit van producten hoe dichter ze bij de uiterste verkoopdatum komen minder. 
 We hebben hiervoor echter een systeem wat gemaakt is door onze voormalig medewerker Jack, welke helaas niet meer voor ons werkzaam is. 
