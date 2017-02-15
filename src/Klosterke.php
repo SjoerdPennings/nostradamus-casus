@@ -17,8 +17,8 @@ class Klosterke
         $this->verkopenVoor = $verkopenVoor;
     }
 
-    public static function of($name, $quality, $sellIn) {
-        return new static($name, $quality, $sellIn);
+    public static function of($naam, $kwaliteit, $verkopenVoor) {
+        return new static($naam, $kwaliteit, $verkopenVoor);
     }
 
     public function tick()
