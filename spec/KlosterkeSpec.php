@@ -248,7 +248,7 @@ describe('Klosterke', function () {
         // context ("Kloosterbier items", function () {
 
         //     it ('update Conjured items voor de verkoopdatum', function () {
-        //         $item = Klosterke::of('Kloosterbier Franziskaner', 10, 10);
+        //         $item = Klosterke::of('Kloosterbier - Franziskaner', 10, 10);
 
         //         $item->tick();
 
@@ -257,7 +257,7 @@ describe('Klosterke', function () {
         //     });
 
         //     it ('update Kloosterbier items op de minimale kwaliteit', function () {
-        //         $item = Klosterke::of('Kloosterbier Franziskaner', 0, 10);
+        //         $item = Klosterke::of('Kloosterbier - Franziskaner', 0, 10);
 
         //         $item->tick();
 
@@ -266,7 +266,7 @@ describe('Klosterke', function () {
         //     });
 
         //     it ('update Kloosterbier itemsop de verkoopdatum', function () {
-        //         $item = Klosterke::of('Kloosterbier Franziskaner', 10, 0);
+        //         $item = Klosterke::of('Kloosterbier - Franziskaner', 10, 0);
 
         //         $item->tick();
 
@@ -275,7 +275,7 @@ describe('Klosterke', function () {
         //     });
 
         //     it ('update Kloosterbier itemsop de verkoopdatum op de minimale kwaliteit', function () {
-        //         $item = Klosterke::of('Kloosterbier Franziskaner', 0, 0);
+        //         $item = Klosterke::of('Kloosterbier - Franziskaner', 0, 0);
 
         //         $item->tick();
 
@@ -284,7 +284,7 @@ describe('Klosterke', function () {
         //     });
 
         //     it ('update Kloosterbier items na de verkoopdatum', function () {
-        //         $item = Klosterke::of('Kloosterbier Franziskaner', 10, -10);
+        //         $item = Klosterke::of('Kloosterbier - Franziskaner', 10, -10);
 
         //         $item->tick();
 
@@ -293,7 +293,7 @@ describe('Klosterke', function () {
         //     });
 
         //     it ('update Kloosterbier items na de verkoopdatum op de minimale kwaliteit', function () {
-        //         $item = Klosterke::of('Kloosterbier Franziskaner', 0, -10);
+        //         $item = Klosterke::of('Kloosterbier - Franziskaner', 0, -10);
 
         //         $item->tick();
 
