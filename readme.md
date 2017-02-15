@@ -11,8 +11,8 @@ Wat je moet doen is het volgende:
 
 ## Regels
 
-Welkom bij Herberg `t Klosterke. Gevestigd in het oude klooster van Den Hout, zijn we een echt bruin cafe. Achter de tap staat Paul de Hoogh. We kopen en verkopen alleen de beste producten. Helaas wordt de kwaliteit van producten hoe dichter ze bij de uiterste verkoopdatum komen minder. 
-We hebben hiervoor echter een systeem wat gemaakt is door onze voormalig medewerker Jack, welke helaas niet meer voor ons werkzaam is. 
+Welkom bij Herberg `t Klosterke. Gevestigd in het oude klooster van Den Hout, zijn we een echt bruin cafe. Achter de tap staat Paul. We kopen en verkopen alleen de beste producten. Helaas wordt de kwaliteit van producten hoe dichter ze bij de uiterste verkoopdatum komen minder. 
+We hebben hiervoor echter een systeem wat gemaakt is door onze voormalig medewerker Jeffrey, welke helaas niet meer voor ons werkzaam is. 
 
 **Je opdracht voor vandaag is het toevoegen van een nieuwe functie in het systeem zodat we een nieuwe categorie zodat we nieuwe producten kunnen gaan verkopen.**
 
