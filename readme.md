@@ -37,3 +37,29 @@ We hebben recent een contract afgesloten met een leverancier van kloosterbier en
 
 Voor de duidelijkheid, een item kan nooit meer dan 50 hebben als kwaliteit, maar "BBQ", als historisch item, heeft een kwaliteit van 80 en verandert nooit.
 
+---
+
+## Urenregistratie Sjoerd Pennings
+14:10 - Repository clonen, en code/specs doorlezen.
+14:15 - Refactor Klosterke.php naar 1 basisclass, en 4 classes voor de verschillende producten.
+14:35 - Pas de specs aan zodat deze kloppen met de nieuwe classes.
+14:40 - Implementeer de Kloosterbier class.
+14:50 - Testen of de Kloosterbier class werkt.
+14:55 - Urenregistratie invullen en uitleg schrijven.
+15:00 - Opsplitsen KloosterkeSpec naar vijf spec-bestanden.
+15:08 - Specs draaien...
+15:08 - Klaar!
+
+## Uitleg
+- Alle gedeelde code die bij elk producttype is gebruikt staat nu in de abstract class ProductClass.php
+  - Alle andere classes extenden deze class.
+- Elk producttype heeft zijn eigen class, met zijn eigen regels.
+  - HistorischProduct (voor BBQ en andere historische producten) verandert niets, en heeft dus geen inhoud.
+  - Product (voor normale producten) heeft de standaard regels.
+  - RodeWijn (voor rode wijn) heeft de standaard regels, maar de kwaliteit stijgt ipv daalt.
+  - WitteWijn (voor witte wijn) heeft de standaard regels, maar de kwaliteit stijgt sneller naarmate de verkoopdatum dichterbij komt.
+  - Kloosterbier (voor kloosterbier) heeft de standaard regels, maar de kwaliteit daalt dubbel zo snel.
+- De classes zijn zo opgezet dat ze makkelijk uit te breiden zijn met nieuwe regels voor nieuwe producten.
+  - Dit is te doen door een nieuwe class aan te maken die ProductClass extend, en de nieuwe regels te implementeren.
+- KlosterkeSpec is ook opgedeeld in vijf verschillende specs, zodat de tests per producttype kunnen worden uitgevoerd.
+  - Dit is gedaan om de tests overzichtelijk te houden.
